@@ -25,8 +25,7 @@ class Main {
                           int x2 = sc.nextInt();
                           int y2 = sc.nextInt();
                           
-                          int sum=0;  
-                          insum =  arr[x2][y2] - arr[x1-1][y2] - arr[x2][y1-1] + arr[x1-1][y1-1];
+                          int sum =  arr[x2][y2] - arr[x1-1][y2] - arr[x2][y1-1] + arr[x1-1][y1-1];
                           System.out.println(sum);            
                       }
                       
